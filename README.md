@@ -1,34 +1,44 @@
 # Vision-guided-industrial-robot-for-pick-and-place-tasks
 Visually Guided Robot (VGR) arm simulation for an industrial picking application. Designed for a 2nd-year mechatronics project at ENISo. Uses Webots and YOLO v8 to model a robot arm picking randomly placed 3D parts from a moving conveyor using a multi-sensor system (camera, IR, proximity) and custom control laws.
-# 🤖 Vision-Guided Industrial Robot for Pick & Place
+# 🤖 Vision-Guided Industrial Robot for Pick & Place Tasks
 
 ## 🎬 Project Demo
 
-Below is a demonstration of the vision-guided robot performing object detection and pick & place tasks:
+Below is a simulation demo of the vision-guided industrial robot performing object detection and pick-and-place tasks:
 
-<video width="700" controls>
-  <source src="Vidéo_simulation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Robot Demo](assets/Vidéo_simulation.gif)
 
 ---
 
-## 🧠 Project Description
+## 🧠 Project Overview
 
-This project uses computer vision (YOLO/OpenCV) to detect objects and a robotic arm to perform pick-and-place operations in a simulated or real environment.
+This project focuses on developing a **vision-guided robotic system** capable of detecting objects using computer vision techniques and performing autonomous pick-and-place operations using a robotic arm.
+
+The system integrates:
+- Real-time object detection
+- Robot motion control
+- Vision-based decision making
 
 ---
 
 ## ⚙️ Technologies Used
-- ROS2
+
+- ROS2 (Robot Operating System)
 - OpenCV
-- YOLO
+- YOLO (Object Detection)
 - Python
-- Gazebo / RViz
+- Gazebo / RViz (Simulation)
 
 ---
 
-## 🚀 Features
-- Real-time object detection
-- Vision-based robot control
-- Pick & place automation
+## 🚀 Key Features
+
+- 🎯 Real-time object detection
+- 🦾 Robotic arm manipulation
+- 👁️ Vision-guided decision system
+- 📦 Pick & place automation
+- 🧪 Simulation-based validation
+
+---
+
+## 📂 Project Structure
