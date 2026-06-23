@@ -159,9 +159,6 @@ Press Play in Webots. The C controller will connect to the server, stream camera
 
 ---
 
-## 📄 License
-
-This project was developed as part of an academic Mechatronics semester project. See [LICENSE](LICENSE) for details.
 
 ---
 
@@ -171,4 +168,4 @@ This project was developed as part of an academic Mechatronics semester project.
 - [Roboflow](https://roboflow.com) for dataset management and augmentation
 - [Cyberbotics Webots](https://cyberbotics.com) for the open-source robotics simulator
 - Google Colab for the training environment
-## 📂 Project Structure
+
